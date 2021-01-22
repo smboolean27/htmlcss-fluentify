@@ -5,6 +5,84 @@
 }
 
 body {
-  background-color: green;
   font-family: 'Roboto', sans-serif;
+}
+
+/* Mix */
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 12px;
+  min-width: 80px;
+  text-align: center;
+  line-height: initial;
+}
+
+.btn-bordered {
+  border: 1px solid #fff;
+}
+.btn-green {
+  background-color: #7CBB02;
+}
+
+/* Header */
+header {
+  background-color: #0C325A;
+}
+
+.header-top {
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo, .main-nav, .secondary-nav {
+  float: left;
+}
+
+.logo {
+  width: 15%;
+}
+.logo img {
+  vertical-align: middle;
+  margin-bottom: 12px;
+}
+
+.main-nav {
+  width: 45%;
+}
+.secondary-nav {
+  width: 40%;
+  text-align: right;
+}
+
+.main-nav li:not(:last-child),
+.secondary-nav li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.main-nav a, .secondary-nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
 }
