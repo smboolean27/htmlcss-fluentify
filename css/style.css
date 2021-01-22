@@ -8,6 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Typo */
+h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
 /* Mix */
 .container {
   width: 75%;
@@ -36,6 +42,8 @@ body {
   min-width: 80px;
   text-align: center;
   line-height: initial;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-bordered {
@@ -44,10 +52,17 @@ body {
 .btn-green {
   background-color: #7CBB02;
 }
+.btn-big {
+  padding: 25px;
+}
 
 /* Header */
 header {
   background-color: #0C325A;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+  background-size: 60%;
 }
 
 .header-top {
@@ -85,4 +100,17 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 600px;
+  color: #fff;
+}
+.hero-text {
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
