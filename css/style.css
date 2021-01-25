@@ -120,6 +120,10 @@ header {
   font-size: 14px;
 }
 
+.social-list li a {
+  font-size: 20px;
+}
+
 /* Hero */
 .hero {
   position: relative;
